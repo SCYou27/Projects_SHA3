@@ -8,13 +8,13 @@ Reference: the main goal of tasks in "0001_reference/" is to generate a referenc
 
    Alternatively, just go to the directory "Raw/" to execute the script to download the raw traces:
 
-	>> cd Raw/
-	>> ./script_all.sh
+	`cd Raw/`  
+	`./script_all.sh`  
 
 2. Reference trace calculation:
 
-	>> cd Code_reference/
-	>> ./script_all.sh
+	`cd Code_reference/`  
+	`./script_all.sh`  
 
    The resulting mean trace "Code_reference/ref_trace.npy" will be used in the trace pre-processing steps in the later phases.
 

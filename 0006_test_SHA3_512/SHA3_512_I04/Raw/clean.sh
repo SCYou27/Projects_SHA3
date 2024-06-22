@@ -1,0 +1,1 @@
+rm Raw_*.zip

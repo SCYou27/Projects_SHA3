@@ -1,4 +1,4 @@
-# Profiling traces
+# Profiling (training) traces
 
 Profiling (Training): the main goal of tasks in "0003_training/" is to build the templates used in our attacks.
 

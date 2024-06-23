@@ -1,12 +1,12 @@
 # Reference traces
 
-Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for the trace quality control in the next phases.
+Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
 
 1. Please download the raw traces used in this phase from the following website:
 
 	https://www.cl.cam.ac.uk/research/security/datasets/sha3-32bit/Data/0001_reference/
 
-   Alternatively, just go to the directory "Raw/" to execute the script to download the raw traces:
+   Alternatively, go to the directory "Raw/" to execute the script to download the raw traces:
 
 	`cd Raw/`  
 	`./script_all.sh`  

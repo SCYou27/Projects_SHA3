@@ -26,8 +26,8 @@ We did not record additional traces but just use the first 1000 in the validatio
 
 4. Find success rate given different rate and capacity with factor graphs covering 2, 3, or 4 rounds:
 
-        `cd Rate_Scan_2R/` (or `cd Rate_Scan_3R/`, `cd Rate_Scan_4R/`)  
-        `./script_all.sh`  
+	`cd Rate_Scan_2R/` (or `cd Rate_Scan_3R/`, `cd Rate_Scan_4R/`)  
+	`./script_all.sh`  
 
    Note that rate will be the number of bits in the input state without information, which means we will assign the probability of both candidates for these bits to be 0.5, and assign the others (capacity part) with the values calculated in task "bit_table_generation/".
 

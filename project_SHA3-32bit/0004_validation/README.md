@@ -16,7 +16,7 @@ The main goal of the tasks in "0004_validation/" is to evaluate the quality of o
 	`cd Code_preprocessing/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will check the quality of the raw traces in this phase against the reference trace ("../0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
    The processed trace will be stored in an independent directory "0004_validation/Processed_HDF5/" as four HDF5 files, where each contains 1000 traces.
 

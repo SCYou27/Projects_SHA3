@@ -9,18 +9,16 @@ The main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief 
 
    This task extracts the answer bits for the input state and intermediate state A00 from the 1000 validation traces. We need the former to generate probability tables for the input capacity part and the latter to check if the belief propagation procedure stablizes and converges to the correct bit values.
 
-2. Trace pre-processing:
+2. Marginalized bit tables generation:
 
-	`cd Code_preprocessing/`  
+	`cd bit_table_generation/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will first perform template attack to build probability tables for intermediate bytes, and then marginalize them into bitwise tables (archived in "Bit_Tables.zip"). Note that we did not build templates for the input state but used the answer bits generated in the previous task to generate the probability tables for the input bitwise tables (by setting the correct candidate bit with probability equal to 1, whereas the other with 0).
 
-   The processed trace will be stored in an independent directory "0004_validation/Processed_HDF5/" as four HDF5 files, where each contains 1000 traces.
+3. Find success rate given different numbers of iterations with factor graphs covering 2, 3, or 4 rounds:
 
-3. Intermeidate value calculation:
-
-	`cd Code_intermediate_values/`  
+	`cd Iteration_Scan_2R/` (or `cd Iteration_Scan_3R/`, `cd Iteration_Scan_4R/`)  
 	`./script_all.sh`  
 
    Based on the extracted I/O data, this step will calculate our target intermediate values and store them in bytes as the answers for the quality evaluation.

@@ -16,7 +16,7 @@ Detection: the main goal of tasks in "0002_detection/" is to determine the point
 	`cd Code_preprocessing/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will check the quality of the raw traces in this phase against the reference trace ("../0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
    The processed trace will be stored in an independent directory "0002_detection/Processed_HDF5/" as four HDF5 files, each containing 4000 traces.
 

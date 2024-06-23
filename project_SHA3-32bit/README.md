@@ -33,4 +33,4 @@ We separated our project into the following phases:
    - 0010_SHAKE256/
    - 0011_SHAKE128/
 
-Please find the README.md files under each set for more instructions.
+For each single small tasks in this project, we provide a all-in-one shell script to finish the tasks (script_all.sh) and a restart script to clean all the generated data (clean.sh), please find the README.md files under each set for more instructions.

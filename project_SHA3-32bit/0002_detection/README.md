@@ -39,7 +39,7 @@ The main goal of the tasks in "0002_detection/" is to determine the points of in
 	`cd Code_extract_ics/`  
 	`./script_all.sh`  
 
-   This step will select the interesting clock cycles according to whether the summed R^2 value of a 32-bit word is higher than a given threshold. We used the ones with a threshold equal to 0.010 in the later experiments, where the interesting clock cycle sets are stored in "Code_extract_ics/ics_original_010.zip"
+   This step will select the interesting clock cycles according to whether the summed _R_<sup>2</sup> value of a 32-bit word is higher than a given threshold. We used the ones with a threshold equal to 0.010 in the later experiments, where the interesting clock cycle sets are stored in "Code_extract_ics/ics_original_010.zip"
 
 
 

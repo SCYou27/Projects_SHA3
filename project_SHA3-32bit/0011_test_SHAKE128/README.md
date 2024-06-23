@@ -4,7 +4,7 @@ The main goal of the tasks in "0011_SHAKE128/" is to perform a Soft Analytical S
 
 Although we built our templates with traces recorded during SHA3-512 executions, we believe these templates can be used to attack other three hash and two extendable-output functions in SHA-3 because our attack method focuses on the internal states in the Keccak-_f_[1600] permutations, which remain unchanged across these six different functions.
 
-Like the case of the attack on SHA3-512, we separate this data set into the following two subsets by the number of invocations required:
+Like the case of the attack on SHA3-512, we divided this data set into the following two subsets by the number of invocations required:
 
  - "SHAKE128_I01/": attack on 1000 executions of SHAKE128 with one invocation of Keccak permutation.
  - "SHAKE128_I02/": attack on 1000 executions of SHAKE128 with two invocations of Keccak permutation.

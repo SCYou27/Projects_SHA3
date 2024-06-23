@@ -2,7 +2,7 @@
 
 The main goal of tasks in "0006_SHA3-512/" is to perform Soft Analytical Side-Channel Attack (SASCA) on the SHA3-512 hash function.
 
-Since hash functions must accept arbitrary-length inputs, it may require more than one invocation of Keccak-_f_[1600] permutation to absorb the input. Therefore, we further separate this data set into the following five subsets by the numbers of invocations required:
+Hash functions support arbitrary-length inputs. Therefore, it may require more than one invocation of Keccak-_f_[1600] permutation to absorb the input. Here we further separate this data set into the following five subsets by the numbers of invocations required:
 
  - "SHA3_512_I01/": attack on 1000 executions of SHA3-512 with one invocation of Keccak permutation.
  - "SHA3_512_I02/": attack on 1000 executions of SHA3-512 with two invocations of Keccak permutation.

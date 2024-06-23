@@ -9,15 +9,15 @@ Shih-Chun You, Markus G. Kuhn:
 Single-trace fragment template attack on a 32-bit implementation of Keccak
 CARDIS 2021, 11–12 November 2021, Lübeck, Springer, LNCS 13173, 2022. DOI: "https://doi.org/10.1007/978-3-030-97348-3_1"
 
-This project include all the code we used for the experiments. We suggest you have an access to a linux server with at least 2 TB storage to run the experiments.
+This project includes all the code we used for the experiments. We suggest you have access to a Linux server with at least 2 TB of storage to run the experiments.
 
 Note that this is a newly optimized implementation for our experiments, and the numbers of results are slightly different from those published in our paper, but the differences are not statistically meaningful.
 
-We separated our project into the following phases:
+We divided our project into the following phases:
 
-1. Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for the trace quality control in the next phases.
+1. Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
 
-2. Detection: the main goal of tasks in "0002_detection/" is to determine the points of interests (or interesting clock cycles).
+2. Detection: the main goal of tasks in "0002_detection/" is to determine the points of interest (or interesting clock cycles).
 
 3. Profiling (Training): the main goal of tasks in "0003_training/" is to build the templates used in our attacks.
 
@@ -33,4 +33,4 @@ We separated our project into the following phases:
    - 0010_SHAKE256/
    - 0011_SHAKE128/
 
-For each single small tasks in this project, we provide a all-in-one shell script to finish the tasks (script_all.sh) and a restart script to clean all the generated data (clean.sh), please find the README.md files under each set for more instructions.
+For every single small task in this project, we provide an all-in-one shell script to finish the tasks (script_all.sh) and a restart script to clean all the generated data (clean.sh), please find the README.md files under each set for more instructions.

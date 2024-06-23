@@ -33,4 +33,4 @@ We separated our project into the following phases:
    - 0010_SHAKE256/
    - 0011_SHAKE128/
 
-
+Please find the README.md files under each set for more instructions.

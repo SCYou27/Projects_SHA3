@@ -1,15 +1,13 @@
-# Validation traces
+# Belief propagation testing
 
-The main goal of the tasks in "0004_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
+The main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-f[1600] permutation, which is associated with Fig. 4. in our paper. We did not record additional traces but just use the first 1000 in the validation set ("0004_validation/") for this phase.
 
-1. Please download the raw traces used in this phase from the following website:
+1. Find answer bits for two states:
 
-	https://www.cl.cam.ac.uk/research/security/datasets/sha3-32bit/Data/0004_validation/
-
-   Alternatively, go to the directory "Raw/" to execute the script to download the raw traces:
-
-	`cd Raw/`  
+	`cd get_answers/`  
 	`./script_all.sh`  
+
+   This task extracts the answer bits for the input state and intermediate state A00 from the 1000 validation traces. We need the former to generate probability tables for the input capacity part and the latter to check if the belief propagation procedure stablizes and converges to the correct bit values.
 
 2. Trace pre-processing:
 

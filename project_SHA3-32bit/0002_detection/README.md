@@ -1,6 +1,6 @@
 # Detection traces
 
-Detection: the main goal of tasks in "0002_detection/" is to determine the points of interest (or interesting clock cycles).
+The main goal of the tasks in "0002_detection/" is to determine the points of interest (or interesting clock cycles).
 
 1. Please download the raw traces used in this phase from the following website:
 

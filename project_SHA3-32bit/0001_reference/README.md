@@ -1,6 +1,6 @@
 # Reference traces
 
-Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
+The main goal of the tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
 
 1. Please download the raw traces used in this phase from the following website:
 

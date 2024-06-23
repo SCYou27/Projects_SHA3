@@ -1,6 +1,6 @@
 # Profiling (training) traces
 
-Profiling (Training): the main goal of the tasks in "0003_training/" is to build the templates used in our attacks.
+The main goal of the tasks in "0003_training/" is to build the templates used in our attacks.
 
 1. Please download the raw traces used in this phase from the following website:
 

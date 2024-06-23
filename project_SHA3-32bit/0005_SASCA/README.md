@@ -1,6 +1,6 @@
 # Belief propagation testing
 
-The main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-f[1600] permutation, which is associated with Fig. 4. in our paper. With the factor graphs covering the first 2, 3, or 4 rounds out of the total 24 rounds within an invocation of Keccak-f[1600], we provide the success rate to reconstruct the A00 intermediate state, over different number of loopy-BP iterations and over different rate and corresponding capacity (_c_ = 1600-_r_).
+The main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-_f_[1600] permutation, which is associated with Fig. 4. in our paper. With the factor graphs covering the first 2, 3, or 4 rounds out of the total 24 rounds within an invocation of Keccak-_f_[1600], we provide the success rate to reconstruct the A00 intermediate state, over different number of loopy-BP iterations and over different rate and corresponding capacity (_c_ = 1600-_r_).
 
 
 We did not record additional traces but just use the first 1000 in the validation set ("0004_validation/") for this phase.

@@ -1,6 +1,6 @@
 # Profiling (training) traces
 
-The main goal of the tasks in "0003_training/" is to build the templates used in our attacks.
+The main goal of the tasks in "0003\_training/" is to build the templates used in our attacks.
 
 1. Please download the raw traces used in this phase from the following website:
 
@@ -16,9 +16,9 @@ The main goal of the tasks in "0003_training/" is to build the templates used in
 	`cd Code_preprocessing/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("../0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will check the quality of the raw traces in this phase against the reference trace ("../0001\_referece/Code\_reference/ref\_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
-   The processed trace will be stored in an independent directory "0003_training/Processed_HDF5/" as 16 HDF5 files, each containing 4000 traces.
+   The processed trace will be stored in an independent directory "0003\_training/Processed\_HDF5/" as 16 HDF5 files, each containing 4000 traces.
 
 3. Intermeidate value calculation:
 

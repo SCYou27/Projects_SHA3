@@ -1,6 +1,6 @@
 # Reference traces
 
-The main goal of the tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
+The main goal of the tasks in "0001\_reference/" is to generate a reference trace (ref\_trace.npy) for trace quality control in the next phases.
 
 1. Please download the raw traces used in this phase from the following website:
 
@@ -16,6 +16,6 @@ The main goal of the tasks in "0001_reference/" is to generate a reference trace
 	`cd Code_reference/`  
 	`./script_all.sh`  
 
-   The resulting mean trace "Code_reference/ref_trace.npy" will be used in the trace pre-processing steps in the later phases.
+   The resulting mean trace "Code\_reference/ref\_trace.npy" will be used in the trace pre-processing steps in the later phases.
 
 

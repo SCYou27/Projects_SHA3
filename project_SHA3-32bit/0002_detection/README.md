@@ -1,6 +1,6 @@
 # Detection traces
 
-The main goal of the tasks in "0002_detection/" is to determine the points of interest (or interesting clock cycles).
+The main goal of the tasks in "0002\_detection/" is to determine the points of interest (or interesting clock cycles).
 
 1. Please download the raw traces used in this phase from the following website:
 
@@ -16,9 +16,9 @@ The main goal of the tasks in "0002_detection/" is to determine the points of in
 	`cd Code_preprocessing/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("../0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will check the quality of the raw traces in this phase against the reference trace ("../0001\_referece/Code\_reference/ref\_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
-   The processed trace will be stored in an independent directory "0002_detection/Processed_HDF5/" as four HDF5 files, each containing 4000 traces.
+   The processed trace will be stored in an independent directory "0002\_detection/Processed\_HDF5/" as four HDF5 files, each containing 4000 traces.
 
 3. Intermeidate value calculation:
 
@@ -39,7 +39,7 @@ The main goal of the tasks in "0002_detection/" is to determine the points of in
 	`cd Code_extract_ics/`  
 	`./script_all.sh`  
 
-   This step will select the interesting clock cycles according to whether the summed _R_<sup>2</sup> value of a 32-bit word is higher than a given threshold. We used the ones with a threshold equal to 0.010 in the later experiments, where the interesting clock cycle sets are stored in "Code_extract_ics/ics_original_010.zip"
+   This step will select the interesting clock cycles according to whether the summed _R_<sup>2</sup> value of a 32-bit word is higher than a given threshold. We used the ones with a threshold equal to 0.010 in the later experiments, where the interesting clock cycle sets are stored in "Code\_extract\_ics/ics\_original\_010.zip"
 
 
 

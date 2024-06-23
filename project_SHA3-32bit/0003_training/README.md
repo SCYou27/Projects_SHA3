@@ -32,14 +32,14 @@ The main goal of the tasks in "0003\_training/" is to build the templates used i
 	`cd Code_find_IoPs/`  
 	`./script_all.sh`  
 
-   After downsampling, the resampled traces contain 10 samples for each clock cycle in the window for recording. This step is to concatenate the samples of the interesting clock cycles into a reassembled trace in files such as "Code_find_IoPs/IoPs/Ints_A00_i00.hdf5". This means that when the interesting clock cycle set for a target intermediate 32-bit word contains indices [0, 10, 15, 17], we will select samples 0, 1, ..., 9, 100, 101, ..., 109, 150, 151, ..., 159, 170, 171, ..., 179 from the downsampled trace, concatenate them to form a newly reassembled trace, and then store it in the HDF5 files. As a result, the length of the traces in "Ints_A00_i00.hdf5" is 10 times the number of the interesting clock cycles for the first 32-bit word in state A00, for example. 
+   After downsampling, the resampled traces contain 10 samples for each clock cycle in the window for recording. This step is to concatenate the samples of the interesting clock cycles into a reassembled trace in files such as "Code\_find\_IoPs/IoPs/Ints\_A00\_i00.hdf5". This means that when the interesting clock cycle set for a target intermediate 32-bit word contains indices [0, 10, 15, 17], we will select samples 0, 1, ..., 9, 100, 101, ..., 109, 150, 151, ..., 159, 170, 171, ..., 179 from the downsampled trace, concatenate them to form a newly reassembled trace, and then store it in the HDF5 files. As a result, the length of the traces in "Ints\_A00\_i00.hdf5" is 10 times the number of the interesting clock cycles for the first 32-bit word in state A00, for example. 
 
 5. Template profiling:
 
 	`cd template_profiling_bytes/`  
 	`./script_all.sh`  
 
-   This step is to build templates with multiple linear regression and linear discriminant analysis (LDA). The resulting templates will be stored in "template_profiling_bytes/templateLDA_O010.zip"
+   This step is to build templates with multiple linear regression and linear discriminant analysis (LDA). The resulting templates will be stored in "template\_profiling\_bytes/templateLDA\_O010.zip"
 
 
 

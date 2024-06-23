@@ -31,20 +31,10 @@ We did not record additional traces but just use the first 1000 in the validatio
 
    Note that rate will be the number of bits in the input state without information, which means we will assign the probability of both candidates for these bits to be 0.5, and assign the others (capacity part) with the values calculated in task "bit_table_generation/".
 
-5. Template validation:
+5. Plot the results:
 
-	`cd template_validation_bytes/`  
+	`cd plot_scans/`  
 	`./script_all.sh`  
 
-   This step is to evaluate the quality of templates by providing a success rate and guessing entropy. The results will be stored in "template_validation_bytes/Result_Tables.zip"
+   This will plot the results in two figures: "SuccessOverIteration.pdf" and "SuccessOverRate.pdf".
 
-   You can compare the numbers in Tables 2, 3, 4, and 5 in our paper with the following files:
-
-   - Result_Tables/SR_table_A00_G0.txt
-   - Result_Tables/GE_table_A00_G0.txt
-   - Result_Tables/SR_table_B00_G0.txt
-   - Result_Tables/GE_table_B00_G0.txt
-   - Result_Tables/SR_table_C00_G0.txt
-   - Result_Tables/GE_table_C00_G0.txt
-   - Result_Tables/SR_table_D00_G0.txt
-   - Result_Tables/GE_table_D00_G0.txt

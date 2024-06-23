@@ -1,4 +1,4 @@
-# Project_SHA3
+# Template attack on a 32-bit implementation of SHA-3 functions
 
 The SHA3-32bit dataset contains recordings of the power-supply current changes of the 32-bit processor STM32F303RCT7, which has one ARM Cortex-M4 core, on a ChipWhisperer-Lite (CW-Lite) board.
 We used an NI PXIe-5160 10-bit oscilloscope, which can sample at 2.5 GS/s into 2 GB of sampling memory, and an NI PXIe-5423 wave generator, as an external clock signal source, to supply the target board with a 5 MHz square wave signal.
@@ -23,8 +23,14 @@ We separated our project into the following phases:
 
 4. Validation: the main goal of tasks in "0004_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
 
-5. Testing ---- SASCA within a single Keccak-f[1600] permutation: this is associated with Fig. 4. in our paper.
+5. Belief propagation testing: the main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-f[1600] permutation, which is associated with Fig. 4. in our paper.
 
-6. Attacks: (code and data under review...)
+6. Attacks: we separated the code and data of attacks by their target functions.
+   - 0006_SHA3-512/
+   - 0007_SHA3-384/
+   - 0008_SHA3-256/
+   - 0009_SHA3-224/
+   - 0010_SHAKE256/
+   - 0011_SHAKE128/
 
 

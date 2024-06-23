@@ -1,6 +1,6 @@
 # Validation traces
 
-The main goal of the tasks in "0004_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
+The main goal of the tasks in "0004\_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
 
 1. Please download the raw traces used in this phase from the following website:
 
@@ -16,9 +16,9 @@ The main goal of the tasks in "0004_validation/" is to evaluate the quality of o
 	`cd Code_preprocessing/`  
 	`./script_all.sh`  
 
-   This step will check the quality of the raw traces in this phase against the reference trace ("../0001_referece/Code_reference/ref_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
+   This step will check the quality of the raw traces in this phase against the reference trace ("../0001\_referece/Code\_reference/ref\_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
-   The processed trace will be stored in an independent directory "0004_validation/Processed_HDF5/" as four HDF5 files, where each contains 1000 traces.
+   The processed trace will be stored in an independent directory "0004\_validation/Processed\_HDF5/" as four HDF5 files, where each contains 1000 traces.
 
 3. Intermeidate value calculation:
 
@@ -32,15 +32,15 @@ The main goal of the tasks in "0004_validation/" is to evaluate the quality of o
 	`cd template_validation_bytes/`  
 	`./script_all.sh`  
 
-   This step is to evaluate the quality of templates by providing a success rate and guessing entropy. The results will be stored in "template_validation_bytes/Result_Tables.zip"
+   This step will evaluate the quality of templates by providing a success rate and guessing entropy. The results will be stored in "template_validation_bytes/Result_Tables.zip"
 
    You can compare the numbers in Tables 2, 3, 4, and 5 in our paper with the following files:
 
-   - Result_Tables/SR_table_A00_G0.txt
-   - Result_Tables/GE_table_A00_G0.txt
-   - Result_Tables/SR_table_B00_G0.txt
-   - Result_Tables/GE_table_B00_G0.txt
-   - Result_Tables/SR_table_C00_G0.txt
-   - Result_Tables/GE_table_C00_G0.txt
-   - Result_Tables/SR_table_D00_G0.txt
-   - Result_Tables/GE_table_D00_G0.txt
+   - Result\_Tables/SR\_table\_A00_G0.txt
+   - Result\_Tables/GE\_table\_A00_G0.txt
+   - Result\_Tables/SR\_table\_B00_G0.txt
+   - Result\_Tables/GE\_table\_B00_G0.txt
+   - Result\_Tables/SR\_table\_C00_G0.txt
+   - Result\_Tables/GE\_table\_C00_G0.txt
+   - Result\_Tables/SR\_table\_D00_G0.txt
+   - Result\_Tables/GE\_table\_D00_G0.txt

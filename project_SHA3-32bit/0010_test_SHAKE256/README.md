@@ -1,6 +1,6 @@
 # Attack on the SHAKE256 extendable-output function (XOF)
 
-The main goal of tasks in "0010_SHAKE256/" is to perform a Soft Analytical Side-Channel Attack (SASCA) on the SHA3-256 hash function.
+The main goal of the tasks in "0010_SHAKE256/" is to perform a Soft Analytical Side-Channel Attack (SASCA) on the SHAKE256 extendable-output function (XOF).
 
 Although we built our templates with traces recorded during SHA3-512 executions, we believe these templates can be used to attack other three hash and two extendable-output functions in SHA-3 because our attack method focuses on the internal states in the Keccak-_f_[1600] permutations, which remain unchanged across these six different functions.
 

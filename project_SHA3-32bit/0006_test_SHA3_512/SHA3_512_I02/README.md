@@ -1,4 +1,4 @@
-# Attack experiment with 2-invocational SHA3-512 inputs
+# Attacks to recover 2-invocational SHA3-512 inputs
 
 The main goal of the tasks in "0006\_test\_SHA3\_512/SHA3\_512\_I02/" is to test how our attack performs on the 2-invocational SHA3-512 hash function.
 
@@ -25,4 +25,4 @@ The main goal of the tasks in "0006\_test\_SHA3\_512/SHA3\_512\_I02/" is to test
 	`cd template_attack_SHA3_512_4R_I02/` (or `template_attack_SHA3_512_3R_I02/`, `template_attack_SHA3_512_2R_I02`, `template_attack_SHA3_512_1R_I02/`)  
 	`./script_all.sh`  
 
-   The result will be recorded in file "report.txt", which contains the number of successfully recovered inputs out of the 1000 trials and statistics (mean, median, maximum) of iterations required for the loopy-BP procedure to stabilize.
+   The result will be recorded in the file "report.txt", which contains the number of successfully recovered inputs out of the 1000 trials and statistics (mean, median, maximum) of iterations required for the loopy-BP procedure to stabilize.

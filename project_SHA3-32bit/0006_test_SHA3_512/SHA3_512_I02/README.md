@@ -4,7 +4,7 @@ The main goal of the tasks in "0006\_test\_SHA3\_512/SHA3\_512\_I02/" is to test
 
 1. Please download the raw traces used in this phase from the following website:
 
-	https://www.cl.cam.ac.uk/research/security/datasets/sha3-32bit/Data/0006_test_SHA3_512/
+	https://www.cl.cam.ac.uk/research/security/datasets/sha3-32bit/Data/0006_test_SHA3_512/index.html#I02
 
    Alternatively, go to the directory "Raw/" to execute the script to download the raw traces:
 

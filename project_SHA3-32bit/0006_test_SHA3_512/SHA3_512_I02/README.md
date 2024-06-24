@@ -18,7 +18,7 @@ The main goal of the tasks in "0006\_test\_SHA3\_512/SHA3\_512\_I02/" is to test
 
    This step will check the quality of the raw traces in this phase against the reference trace ("../0001\_referece/Code\_reference/ref\_trace.npy"), and then extract the I/O data in the archived raw trace ZIP files.
 
-   The processed trace will be stored in an independent directory "0003_training/Processed_HDF5/" as 16 HDF5 files, each containing 4000 traces.
+   The processed trace will be stored in an independent directory "0006_test_SHA3_512/Processed_HDF5/" as 2 HDF5 files, each containing 1000 traces, categorized by the invocations of permutation.
 
 3. Intermeidate value calculation:
 

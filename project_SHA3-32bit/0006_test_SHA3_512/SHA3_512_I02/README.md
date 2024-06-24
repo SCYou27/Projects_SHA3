@@ -20,9 +20,9 @@ The main goal of the tasks in "0006\_test\_SHA3\_512/SHA3\_512\_I02/" is to test
 
    The processed trace will be stored in an independent directory "0006\_test\_SHA3\_512/Processed\_HDF5/" as 2 HDF5 files, each containing 1000 traces, categorized by the invocations of permutation.
 
-3. Hash input recovery:
+3. Hash function input recovery:
 
 	`cd template_attack_SHA3_512_4R_I02/` (or `template_attack_SHA3_512_3R_I02/`, `template_attack_SHA3_512_2R_I02`, `template_attack_SHA3_512_1R_I02/`)  
 	`./script_all.sh`  
 
-
+   The result will be recorded in file "report.txt", which contains the number of successfully recovered inputs out of the 1000 trials and statistics (mean, median, maximum) of iterations required for the loopy-BP procedure to stabilize.

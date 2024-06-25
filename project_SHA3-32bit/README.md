@@ -16,22 +16,22 @@ Note that this is a newly optimized implementation for our experiments, and the 
 
 We divided our project into the following phases:
 
-1. Reference: the main goal of tasks in "0001_reference/" is to generate a reference trace (ref_trace.npy) for trace quality control in the next phases.
+1. Reference: the main goal of tasks in "0001\_reference/" is to generate a reference trace (ref\_trace.npy) for trace quality control in the next phases.
 
-2. Detection: the main goal of tasks in "0002_detection/" is to determine the points of interest (or interesting clock cycles).
+2. Detection: the main goal of tasks in "0002\_detection/" is to determine the points of interest (or interesting clock cycles).
 
-3. Profiling (Training): the main goal of tasks in "0003_training/" is to build the templates used in our attacks.
+3. Profiling (Training): the main goal of tasks in "0003\_training/" is to build the templates used in our attacks.
 
-4. Validation: the main goal of tasks in "0004_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
+4. Validation: the main goal of tasks in "0004\_validation/" is to evaluate the quality of our templates by metrics of first-order success rate and guessing entropy.
 
-5. Belief propagation testing: the main goal of tasks in "0005_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-f[1600] permutation, which is associated with Fig. 4. in our paper.
+5. Belief propagation testing: the main goal of tasks in "0005\_SASCA/" is to test the factor graphs for belief propagation within a single Keccak-f[1600] permutation, which is associated with Fig. 4. in our paper.
 
 6. Attacks: we separated the code and data of attacks by their target functions.
-   - 0006_SHA3-512/
-   - 0007_SHA3-384/
-   - 0008_SHA3-256/
-   - 0009_SHA3-224/
-   - 0010_SHAKE256/
-   - 0011_SHAKE128/
+   - 0006\_SHA3-512/
+   - 0007\_SHA3-384/
+   - 0008\_SHA3-256/
+   - 0009\_SHA3-224/
+   - 0010\_SHAKE256/
+   - 0011\_SHAKE128/
 
 For every single small task in this project, we provide an all-in-one shell script to finish the tasks (script_all.sh) and a restart script to clean all the generated data (clean.sh), please find the README.md files under each set for more instructions.

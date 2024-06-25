@@ -8,7 +8,7 @@ More details of the attack are described in the following paper:
  - Shih-Chun You, Markus G. Kuhn:  
    _Single-trace fragment template attack on a 32-bit implementation of Keccak_  
    CARDIS 2021, 11–12 November 2021, Lübeck, Springer, LNCS 13173, 2022,  
-   [DOI: https://doi.org/10.1007/978-3-030-97348-3\_1](https://doi.org/10.1007/978-3-030-97348-3_1)  
+   [DOI: 10.1007/978-3-030-97348-3\_1](https://doi.org/10.1007/978-3-030-97348-3_1)  
 
 This project includes all the code we used for the experiments. We suggest you have access to a Linux server with at least 2 TB of storage to run the experiments.
 
